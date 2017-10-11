@@ -1,0 +1,56 @@
+.container {
+	margin-top: 30px;
+    margin-bottom: 30px;
+}
+.logo {
+	height: 80px;
+}
+
+#name:after {
+  content: 'FRONT-END NINJA';
+  display: block;
+  font-weight: bold;
+}
+
+#name {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+}
+
+#name h1 {
+	font-size: 60px;
+	text-transform: uppercase;
+}
+
+.header-line {
+	border-top: 5px solid #7d97ad;
+}
+
+.top-image {
+	background-image: url('https://www.cctvcambridge.org/sites/default/files/imagefield/html.jpg'); 
+	background-position: center;
+	height: 500px;
+}
+
+.sub-topic {
+	font-family: 'Lato', sans-serif;
+	color: #7d97ad;
+
+}
+
+.card {
+	height: 250px;
+}
+
+.link {
+	color: #7d97ad;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+
+.sub-heading {
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: center;
+}
