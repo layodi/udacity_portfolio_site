@@ -6,21 +6,24 @@
     	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>Udacity Portfolio Site</title>
 		<link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css">
-		<link rel="stylesheet" href="./css/main.css" type="text/css">
+		<link rel="stylesheet" href="./css/main.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+		<link rel="shortcut icon" type="image/png" href="http://logo.kenh.net/logo/udacity.svg.png"/>
 	</head>
 	<body>
 		<div class="container">
-			<div class="row">
+			<header class="row">
 				<div class="col-md-6 col-sm-6">
 					<img class="logo" src="http://logo.kenh.net/logo/udacity.svg.png" alt="Udacity Logo">
 				</div>
 				<div id="name" class="col-md-6 col-sm-6 text-right">
 					<h1>Lavender Ayodi</h1>
 				</div>
+			</header>
+			<div class="row">
+				<hr class="header-line">
 			</div>
-			<hr class="header-line">
 			<div class="row">
 				<div class="col-md-12 col-sm-12 top-image">
 				</div>
@@ -32,21 +35,33 @@
 			</div>
 			<div class="row">
 				<div class="col-md-4">
-					<img class="card" src="https://lh3.googleusercontent.com/-dAOjVzgqTls/VwsouojTQbI/AAAAAAAAAXU/sFoH_2yyWpoFtmObylY9X_QlBOXKXGevA/w424-h318-n/Appify.jpg" alt="Appify Picture">
+					<picture>
+						<img class="card" src="https://goo.gl/uctoqL" sizes="(max-width: 40em) 100vw, 50vw"
+						  srcset="https://goo.gl/uctoqL 1x, https://goo.gl/uctoqL 2x, https://goo.gl/uctoqL 3x"
+							alt="Appify Picture">
+					</picture>
 					<h3 class="sub-heading">APPIFY</h3>
 					<a class="link" href="https//github.com/udacity/Appify">
 						<h4>https//github.com/udacity/Appify/</h4>
 					</a>
 				</div>
 				<div class="col-md-4">
-					<img class="card" src="https://statesymbolsusa.org/sites/statesymbolsusa.org/files/symbol-place-images/PerfectSunflower.jpg" alt="Sunflower Picture">
+					<picture>
+					  <img class="card" src="https://goo.gl/bccZVP" sizes="(max-width: 40em) 100vw, 50vw"
+						  srcset="https://goo.gl/bccZVP 1x, https://goo.gl/bccZVP 2x, https://goo.gl/bccZVP 3x"
+							alt="Sunflower Picture">
+					</picture>
 					<h3 class="sub-heading">SUNFLOWER</h3>
 					<a class="link" href="https//github.com/udacity/Appify">
 						<h4>https//github.com/udacity/Sunflower/</h4>
 					</a>
 				</div>
 				<div class="col-md-4">
-					<img class="card" src="https://images.unsplash.com/photo-1432847712612-926caafaa802?dpr=1&auto=compress,format&fit=crop&w=376&h=251&q=80&cs=tinysrgb&crop=" alt="Bokeh Picture">
+					<picture>
+					  <img class="card" src="https://goo.gl/KvhWrC" sizes="(max-width: 40em) 100vw, 50vw"
+						  srcset="https://goo.gl/KvhWrC 1x, https://goo.gl/KvhWrC 2x, https://goo.gl/KvhWrC 3x"
+							alt="Bokeh Picture">
+					</picture>
 					<h3 class="sub-heading">BOKEH</h3>
 					<a class="link" href="https//github.com/udacity/Appify">
 						<h4>https//github.com/udacity/Bokeh/</h4>
